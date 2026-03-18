@@ -5,11 +5,11 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
+    <meta property="og:title" content="카야 INTRO" />
+    <meta property="og:description" content="우테코 8기 카야 소개" />
     <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
 
-    <title>Today I Learn</title>
+    <title>INTRO</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" defer></script>
   </head>
@@ -30,11 +30,11 @@
       <div class="profile-card">
         <div class="profile-image">
           <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.png" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>카야</h1>
+          <p class="tagline">404</p>
         </div>
       </div>
     </section>
@@ -43,8 +43,11 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
+        <p>재미 있는 것을 좋아합니다</p>
         <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <a href="https://github.com/choiyoung69" target="_blank" rel="noopener noreferrer">
+          <img src="/images/git-cat.png" alt="GitHub 바로가기" width="40" />
+        </a>
       </section>
 
       <!-- 기본 정보 -->
@@ -54,19 +57,19 @@
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>최서영</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>eNTP</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>요트, 책읽기, 드라마 보기</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>떡볶이, 마라탕</td>
           </tr>
         </table>
       </section>
@@ -74,33 +77,64 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">기억에 남는 여행지</p>
         <div class="gallery-grid">
           <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
           <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
           <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/gallery-3.jpg" alt="갤러리 이미지 3" />
+          <img src="./images/gallery-4.jpg" alt="갤러리 이미지 4" />
+          <img src="./images/gallery-5.jpg" alt="갤러리 이미지 5" />
+          <img src="./images/gallery-6.jpg" alt="갤러리 이미지 6" />
+          <img src="./images/gallery-7.jpg" alt="갤러리 이미지 7" />
+          <img src="./images/gallery-8.jpg" alt="갤러리 이미지 8" />
+          <img src="./images/gallery-9.jpg" alt="갤러리 이미지 9" />
         </div>
       </section>
 
       <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
+
+        <ul class="works-list">
+          <li class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <img src="./images/타이타닉.webp" alt="영화 타이타닉 포스터" />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>타이타닉</h3>
+              <p>
+                타이타닉은 신분 차이로 다른 삶을 살던 로즈와 잭이
+                호화 여객선 타이타닉호에서 만나 사랑에 빠지는 이야기다.
+                두 사람은 짧지만 강렬한 시간을 함께하며 서로에게 새로운 삶의 의미를 발견하게 된다.
+                하지만 배가 빙산과 충돌해 침몰하면서, 그들의 사랑은 비극 속에서 더욱 깊고 오래 기억될 이야기가 된다.
+              </p>
             </div>
-          </article>
-        </div>
+          </li>
+
+          <li class="work-card">
+            <div class="work-thumbnail">
+              <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/P8b47hZdvVY"
+                      title="High Hopes - Panic! At The Disco"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <div class="work-info">
+              <h3>High Hopes - Panic! At The Disco</h3>
+              <p>
+                이 노래는 포기하지 않고 더 높은 곳을 바라보자는 메시지를 담고 있어서
+                힘들 때마다 다시 일어설 용기를 준다.
+                밝고 힘 있는 멜로디와 가사가 함께 어우러져,
+                들을 때마다 스스로를 믿고 앞으로 나아가고 싶게 만드는 곡이다.
+              </p>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <!-- TIL (Today I Learned) -->
